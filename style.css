@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Just+Another+Hand&display=swap');
+*{  
+    margin: 0;
+}
+body{
+    background-color: #1F2C1C;
+    width: 100%;
+}
+header{
+    background-image: url(./header.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    position: relative;
+}
+
+ul {
+  background-color: rgba(0,0,0,0.1);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: 'Istok Web', sans-serif;
+  text-transform: uppercase;
+}
+
+li {
+    padding-top: 10px;
+    float: left;
+    padding-right: 58px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 40px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(192, 192, 192, 0.5)
+}
+h2{
+    font-family: 'Jacques Francois', serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+}
+.titulo-head {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    height: 80%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  h3{
+    margin-top: 27px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.27em;
+  }
+  .first-content{
+    padding-top: 66px;
+    height: 50rem;
+  }
+ .first-cards img, .second-cards img{
+    margin-top: 138px;
+    width: 52rem;
+ }
+ .first-cards, .second-cards{
+        display: flex;
+        justify-content: center;
+ }
+ nav{
+    position: fixed;
+    width: 100%;
+ }
+ .second-content{
+    background-color: #D5D5D5;
+    height: 59rem;
+    padding-top: 66px;
+ }
+ .second-content h2 {
+    color: #1F2C1C;
+ }
+ .second-content h3{
+    color: #1F2C1C;
+ }
+ .third-content{
+    height: 770px;
+    background-image: url(./Rectangle\ 3.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .third-content h2{
+    width: 100%;
+    text-align: center;
+ }
+ .last-content{
+    padding-top: 281px;
+    height: 481px;
+ }
+ .button a{
+    display: flex;
+    justify-content: center;
+    padding-top: 49px;
+ }
+ .button img{
+    width: 334px;
+ }
+ footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 188px;
+    background-color: rgba(88, 129, 86, 0.18);
+ }
+ footer img{
+    width: 718px;
+ }
